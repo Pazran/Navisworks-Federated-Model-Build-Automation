@@ -3,7 +3,7 @@ Using Powershell to automate the process of model federation (NWF and NWD files)
 Disclaimer: This is published on Github for learning.
 
 ## SYNOPSIS
-Builds the Models of the project S96029 (Pelican):
+Builds the Models of a BIM project.
 *	Design Models
 *	Construction Models
 *	Existing Models
@@ -46,11 +46,11 @@ For: Checking new and retired model files
 Spreadsheet must be available and accessible at the link  TEMPORARY NAME FOR JANET’S MODEL TRACKER
 
 ## USAGE
-To start the Pelican Federated Model build automation, run the script Pelican_build_latest_federated_model.bat.  
+To start the Project Federated Model build automation, run the script Project_build_latest_federated_model.bat.  
 Other useful scripts:
-*	More conservative script Pelican_build_latest_federated_model_conservative.bat will rebuild affected NWF and NWD for modified and retired model. It will take around 5-7hrs average.
-*	To force rebuild all Federated Models for maintenance use Pelican_force_build_all_nwf_and_models.bat. It will take around 6-8hrs average.
-*	To generate text files to reflect the content of each NWF/NWD files, run Pelican_generate_latest_nwf_textfile.bat
+*	More conservative script Project_build_latest_federated_model_conservative.bat will rebuild affected NWF and NWD for modified and retired model. It will take around 5-7hrs average.
+*	To force rebuild all Federated Models for maintenance use Project_force_build_all_nwf_and_models.bat. It will take around 6-8hrs average.
+*	To generate text files to reflect the content of each NWF/NWD files, run Project_generate_latest_nwf_textfile.bat
 
 ## SCRIPT WORKFLOW (WHAT IT DOES)
 All the steps below are done automatically when you run the script. They are only a detailed description of its workflow.  
